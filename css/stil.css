@@ -1,0 +1,1382 @@
+body
+{
+    font-family:'Raleway';
+    padding: 0px;
+    margin:0px;
+}
+.header
+{
+    width:100%;
+    height:500px;
+    background:linear-gradient(rgba(46, 41, 78, 0.8) 0%,rgba(46, 41, 78, 0.8) 100%),url(../resimler/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0px;
+    padding:0px;
+}
+.logo
+{
+    width:20%;
+}
+
+.logo img
+{
+    margin-left:40px;
+    margin-top:50px;
+}
+.menu
+{
+    height:30px;
+    line-height: 30px;
+    display:flex;
+    justify-content: flex-end;
+    width:60%;
+}
+.menu nav ul
+{
+    margin:0px;
+    padding:0px;
+    list-style:none; 
+    margin-top:50px;
+ 
+}
+.menu nav ul li
+{
+    float:left;
+    margin-left:20px;
+}
+
+.menu nav ul li a
+{
+    text-decoration: none;
+    color:#fff;
+}
+
+.menu nav ul .active a
+{
+    color:deeppink;
+}
+
+.menu nav ul li:hover a
+{
+    color:deeppink;
+}
+.menu nav ul .active a .fas
+{
+    margin-left:5px;
+    font-size:10px;
+}
+
+.menu nav ul li a .fas
+{
+    margin-left:5px;
+    font-size:10px;
+}
+
+.menulogo
+{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    
+}
+.dropdownmenu
+{
+    display:none;
+}
+.button
+{
+    width:20%;
+}
+.menu nav ul .dropdown
+{
+    position:relative;
+}
+.menu nav ul .dropdownmenu
+{
+    position:absolute;
+    top:0px;
+    left:-20px;
+    transition:0.5s ease;
+}
+.menu nav ul .dropdown:hover .dropdownmenu
+{
+    display:block;
+   
+}
+
+.menu .dropdownmenu li
+{
+    padding:5px 10px;
+    background:#3e4149;
+    width:100px;
+    height:30px;
+    line-height: 30px;
+    text-align: left;
+    color:#fff;
+}
+.menu .dropdownmenu li:hover
+{
+    color:#67D5B5;
+}
+
+.header .button
+{
+    
+    margin-top:55px;
+}
+
+.header .button a
+{
+    width:150px;
+    height:30px;
+    text-align: center;
+    background-color: #67D5B5;
+    color:#fff;
+    padding:10px 20px;
+    border-radius:5px;
+    margin-left:20px;
+    text-decoration: none;
+    transition:0.5s ease;
+}
+.header .button a span .fas
+{
+    margin-left:5px;
+    font-size:10px;
+}
+
+.header .button a:hover
+{
+    background-color:deeppink;
+    
+}
+
+.header-alt
+{
+    width:100%;
+    height:auto;
+    display:flex;
+    padding-left:40px;
+    margin-top: 60px;
+    
+    
+}
+.header-alt .alt-sol
+{
+    width:50%;
+    margin-right:20px;
+   
+}
+.header-alt .alt-sag
+{
+    width:45%;
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;   
+}
+
+.header-alt .alt-sag .alt-sag-alt
+{
+    margin-right:50px;
+}
+
+.header-alt .alt-sol h1 span
+{
+    color:#fff;
+    font-size:70px;
+    margin: 0px;
+    margin-top:80x;
+    font-weight:400;
+}
+.header-alt .alt-sol h1
+{
+    color:#67D5B5;
+    font-size:70px;
+    margin: 0px;
+    font-weight:400;
+    
+}
+.header-alt .alt-sol h2
+{
+    color:#67D5B5;
+    font-size:50px;
+    margin: 0px;
+    margin-top:5px;
+    font-weight:400;
+}
+.header-alt .alt-sol h5
+{
+    color:#fff;
+    font-size:20px;
+    font-weight:400;
+}
+
+.header-alt .alt-sol .button
+{
+    width:40%;
+}
+
+.header-alt .alt-sol .button a
+{
+    width:240px;
+    height:30px;
+    text-align: center;
+    background-color: deeppink;
+    color:#fff;
+    margin-left:0px;
+    border-radius:5px;
+    text-decoration: none;
+    transition:0.5s ease;
+}
+.header-alt .alt-sol .button a span .fas
+{
+    margin-left:10px;
+    font-size:10px;
+}
+
+.header-alt .alt-sol .button a:hover
+{
+    background-color:#67D5B5;
+    
+}
+
+.header-alt .alt-sag .fas
+{
+    font-size:25px;
+    color:deeppink; 
+    margin-right:20px;
+}
+
+.header-alt .alt-sag .far
+{
+    font-size:25px;
+    color:deeppink;  
+    margin-right:20px;
+}
+
+.orta-1
+{
+    width:100%;
+    height:400px;
+    display:flex;  
+}
+.orta-1 .orta-sol
+{
+    width:50%;
+    height:auto;
+    background: linear-gradient(rgba(46, 41, 78, 0.7) 0%,rgba(46, 41, 78, 0.5) 100%),url('../resimler/orta1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.orta-1 .orta-sol .orta-sol-fas
+{
+    font-size:20px;
+    color:deeppink;
+    width:70px;
+    height:70px;
+    border-radius: 50%;
+    background-color: #fff;
+    display:flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.orta-1 .orta-sag
+{
+    width:40%;
+    height:auto;
+    background-color:rgba(46, 41, 78, 0.9);
+    padding:100px;
+}
+.orta-1 .orta-sag h3
+{
+    font-size:40px;
+    color:#fff;
+    margin:0px;
+    font-weight:400;
+}
+
+.orta-1 .orta-sag h3 span
+{
+    color: #67D5B5;
+}
+
+.orta-1 .orta-sag h4
+{
+    font-size:30px;
+    color:#67D5B5;
+    margin:0px;
+    font-weight:400;
+}
+
+
+.orta-1 .orta-sag p
+{
+    font-size:20px;
+    color:#fff;
+    margin:0px;
+    font-weight:400;
+    margin-top:20px;
+}
+
+.orta-2
+{
+    width:100%;
+    height:auto;
+    padding:100px;
+    padding-bottom:100px;
+    display:flex;
+   
+}
+
+.orta-2-sol
+{
+    width:40%;
+    height:auto;
+    letter-spacing: 0.5px;
+}
+.orta-2-sol-ust h2
+{
+    font-size:40px;
+    color:#566270;
+    font-weight:300;
+    margin:0px;
+    margin-left:40px;
+}
+
+.orta-2-sol-ust h3
+{
+    font-size:30px;
+    color:#566270;
+    font-weight:100;
+    margin:0px;
+    margin-top:5px;
+    margin-left:40px;
+}
+
+.orta-2-sol-ust p
+{
+    font-size:15px;
+    color:#566270;
+    font-weight:100;
+    margin-left:40px;
+    
+}
+
+.orta-2-sol-alt 
+{
+    display:flex;
+}
+
+.orta-sol-alt-sol
+{
+    width:50%;
+     height:auto;
+}
+.orta-sol-alt-sol .fas
+{
+    margin-right: 10px; 
+    color:#67D5B5;
+}
+
+.orta-sol-alt-sag .fas
+{
+    margin-right: 10px; 
+    color:#67D5B5;
+}
+
+.orta-sol-alt-sag
+{
+    width:50%;
+    height:auto;
+}
+
+.orta-sol-alt-sol ul
+{
+    list-style: none;
+}
+.orta-sol-alt-sol ul li
+{
+    height:25px;
+    font-size:15px;
+    color:#566270;
+    font-weight:500;
+}
+
+.orta-sol-alt-sag ul
+{
+    list-style: none;
+}
+.orta-sol-alt-sag ul li
+{
+    height:25px;
+    font-size:15px;
+    color:#566270;
+    font-weight:500;
+}
+.orta-2-buton
+{
+    margin-left:40px;  
+    margin-top:20px;
+}
+
+.orta-2-buton a
+{
+    display:inline-block;
+    padding:25px 35px;
+    background-color: #EE7785;
+    text-decoration: none;
+    color:#fff;
+    font-size:18px;
+    border-radius:7px;
+
+}
+
+.orta-2-buton a:hover
+{
+    background-color: #54546c;
+    color:#fff;
+}
+
+.orta-2-buton a .fas
+{
+ 
+    background-color:rgba(255,255,255,0.2);
+    background-position: center;
+    border-radius:50%;
+    font-size:9px;
+    color:#000;
+    margin-left:15px;
+    text-align: center;
+    padding: 5px 7px;
+}
+
+.orta-2-sag
+{
+    width:40%;
+    height:auto;
+    background:linear-gradient(rgba(109, 129, 156,0.3) 0%,rgba(109, 129, 156,0.3) 100%),url('../resimler/orta2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left:20px;
+}
+
+.sirali-icerik
+{
+    width:calc(100%-280px);
+    height:auto;
+    background-color:#f4f5f9;
+    padding:140px;
+}
+
+.sirali-container
+{
+   
+}
+
+.sirali-row
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sirali-row h3
+{
+    font-size:40px; 
+    color:#566270;
+    font-weight:400;
+    margin:0px;
+}
+
+.sirali-row h5
+{
+    font-size:30px; 
+    color:#566270;
+    font-weight:100;
+    margin:0px;
+}
+
+.sirali-satir
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.sirali-sutun
+{
+    padding:10px;
+}
+
+.sirali-sutun h3
+{
+    font-size:40px;
+    color: #EE7785;
+    text-align: center;
+    font-weight:400;
+}
+
+.sirali-sutun h5
+{
+    font-size:26px;
+    color:#566270;
+    text-align: center;
+    font-weight:400;
+}
+
+.sirali-sutun p
+{
+    font-size:16px;
+    color:#566270;
+    text-align: center;
+    font-weight:400;
+}
+
+.pembe
+{
+    width:calc(100%-300px);
+    height:200px;
+    background: linear-gradient(rgba(238, 37, 96, 0.7) 0%,rgba(238, 37, 96, 0.7) 100%),url('../resimler/pembe.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding:150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pembe h3
+{
+    font-size:40px;
+    color:#fff;
+    font-weight:400;
+    text-align: center;
+    margin:0px;
+    margin-bottom:10px;
+}
+
+.pembe h5
+{
+    font-size:30px;
+    color:#fff;
+    font-weight:100;
+    text-align: center;
+    margin:0px;
+    margin-bottom:50px;
+}
+
+
+
+.pembe .button .fas
+{
+    margin-left:20px;
+}
+
+.pembe .button
+{
+    width:50%;
+}
+
+.pembe .button a
+{
+    color:#566270;
+    letter-spacing:2px;
+    text-decoration: none;
+    font-weight:600;
+    padding:20px;
+    width:250px;
+    height:40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #fff; 
+    border-radius:7px;
+    display:inline-block;  
+}
+
+.pembe .button:hover a
+{
+    color:#fff;
+    background-color: #566270;
+}
+
+.yorumlar
+{
+    width:calc(100%-300px);
+    height:auto;
+    padding:150px;
+}
+
+.yorum-baslik h3
+{
+    font-size:40px;
+    font-weight:400;
+    color: #566270;
+    text-align: center;
+    margin-bottom:0px;
+    margin-top:0px;
+}
+
+.yorum-baslik h5
+{
+    font-size:30px;
+    font-weight:100;
+    color: #566270;
+    text-align: center;
+    margin-top:5px;
+}
+
+.yorum-satir
+{
+    display: flex;
+    justify-content: space-around;
+}
+.yorum-sutun
+{
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.yorum-sutun h2
+{
+    text-align: center;
+    font-size:25px;
+    color:deeppink;
+}
+
+.yorum-sutun p
+{
+    text-align: center;
+    font-size:15px;
+    color:#566270;
+    font-weight:400;
+}
+
+.yorum-resim1
+{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background: url('../resimler/a1.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.yorum-resim2
+{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background: url('../resimler/a2.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.yorum-resim3
+{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background: url('../resimler/a3.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.yorum-sutun h4
+{
+    color:#566270;
+    font-weight:700;
+    margin-bottom:10px;
+}
+
+.markalar
+{
+    width:calc(100%-140px);
+    height:auto;
+    padding:70px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #f4f5f9;
+}
+.markalar .sol
+{
+    width:60px;
+    height:60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.markalar .sol .fas
+{
+    font-size: 40px;
+    color:#566270;
+    opacity:0.7
+}
+
+
+.markalar .sag .fas
+{
+    font-size: 40px;
+    color:#566270;
+    opacity:0.7;
+}
+
+
+.markalar .sag
+{
+    width:60px;
+    height:60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.marka-resim
+{
+    width:60px;
+    height:60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.pazarlama
+{
+    width:calc(100%-300px);
+    padding:150px;
+    height:auto;
+    background:linear-gradient(rgba(46, 41, 78, 0.8) 0%,rgba(46, 41, 78, 0.8) 100%),url(../resimler/footer.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pazarlama-icerik
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pazarlama-baslik
+{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pazarlama-baslik h3
+{
+    font-size:40px;
+    font-weight:400;
+    color: #fff;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+
+.pazarlama-baslik h3 span
+{
+    font-size:40px;
+    font-weight:400;
+    color:#67D5B5;
+}
+
+.pazarlama-baslik p
+{
+    font-size:30px;
+    font-weight:100;
+    color:#67D5B5;
+    margin-top:5px;
+    margin-bottom:0px;
+}
+
+.pazarlama-sutunlar
+{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    width:100%;
+    height: auto;
+    margin-top:60px;
+
+}
+.pazarlama-sutun
+{
+    width:24%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.pazarlama-sutun span .fas
+{
+    font-size:50px;
+    color:#67D5B5;
+    font-weight: 300;
+}
+
+
+.pazarlama-sutun span .fab
+{
+    font-size:50px;
+    color:#67D5B5;
+    font-weight: 300;
+}
+
+
+.pazarlama-sutun h5
+{
+    font-size:26px;
+ 
+    font-weight: 100;
+    text-align: center;
+}
+
+.pazarlama-sutun h5 a
+{
+    text-decoration: none;
+    color:#fff;
+}
+
+.pazarlama-sutun h5 a:hover
+{
+    text-decoration: none;
+    color:#67D5B5;
+}
+
+.pazarlama-sutun p
+{
+    font-size:14px;
+     color:#fff;
+    font-weight: 100;
+    text-align: center;
+    opacity:0.6;
+}
+
+.pazarlama-sutun a
+{
+    font-size:18px;
+    color:#67D5B5;
+    text-decoration: none;
+}
+
+.pazarlama-sutun a:hover
+{
+    font-size:18px;
+    color:#fff;
+    text-decoration: none;
+}
+
+.pazarlama-sutun a .fas
+{
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+
+.pazarlama-buton .fas
+{
+    margin-left:20px;
+}
+
+.pazarlama-buton
+{
+    width:100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding-top:60px;
+}
+
+.pazarlama-buton a
+{
+    color: #fff; 
+    letter-spacing:2px;
+    text-decoration: none;
+    font-weight:600;
+    padding:30px 25px;
+    width:250px;
+    height:40px;
+    line-height: 40px;
+    text-align: center;
+    background-color:#EE7785;
+    border-radius:7px;
+ 
+}
+
+.pazarlama-buton:hover a
+{
+    color:#566270;
+    background-color:#fff; 
+}
+
+.pbutton
+{
+    width:25%;
+}
+
+.iletisim-formu
+{
+    width:calc(100%-300px);
+    height:auto;
+    padding:150px;
+}
+
+.iletisim-icerik
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.iletisim-baslik h3
+{
+    font-size:40px;
+    font-weight:400;
+    color:#566270;
+    text-align: center;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+
+
+.iletisim-baslik h5
+{
+    font-size:26px;
+    font-weight:100;
+    color: #566270;
+    text-align: center;
+    margin-top:5px;
+}
+
+.iletisim-form
+{
+    width:calc(80%-70px); 
+    padding:35px;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items: center;
+}
+.iletisim
+{
+    width:100%;
+}
+
+.adsoyad
+{
+    width:100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.ad
+{
+    width:50%;
+    margin-right:20px;
+}
+.soyad
+{
+     width:50%;
+}
+
+.formyazi
+{
+    width:250px;
+    height:80px;
+    border:none;
+    border-radius: 10px;
+    background-color: #f4f5f9;
+    padding:30px;
+    font-size:16px;
+}
+
+.konu
+{
+    width:100%;
+}
+
+.formkonu
+{
+    width:100%;
+    height:80px;
+    border:none;
+    border-radius: 10px;
+    background-color: #f4f5f9;
+    padding:30px;
+    font-size:16px;
+    margin-bottom: 20px;
+}
+
+
+.formmesaj
+{
+    width:100%;
+}
+
+.formMesaj
+{
+    width:calc(100%-50px);
+    height:150px;
+    border:none;
+    border-radius: 10px;
+    background-color: #f4f5f9;
+    font-size:16px;
+    margin-bottom: 20px;
+}
+
+.formbuton
+{
+    display: flex;
+    justify-content: center;
+}
+
+.formButonu
+{
+    width:50%;
+    height:80px;
+    border:none;
+    border-radius: 10px;
+    background-color: #EE7785;
+    padding:30px;
+    font-size:18px;
+    font-weight:400;
+    margin-bottom: 20px;
+    color:#fff;
+}
+
+.formButonu:hover
+{
+    background-color:#566270;
+    color:#fff;
+    transition: .5s ease;
+}
+
+.harita 
+{
+    width:100%;
+    height:500px;
+}
+
+
+.harita iframe
+{
+    width:100%;
+    height:500px;
+    border:none;
+}
+
+.footer
+{
+    width:calc(100%-150px);
+    height:auto;
+    padding:150px;
+    padding-top:100px;
+    background-color:rgba(46, 41, 78, 0.9);
+    padding-bottom:100px;
+}
+
+.footer-icerik
+{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-sutun
+{
+    width:23%;
+    height:240px;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer-sutun p
+{
+    font-style: thin;
+    font-size:14px;
+    line-height: 22px;
+    color:rgba(255,255,255,0.4);
+}
+
+.footer-sutun h4
+{
+    font-size:24px;
+    margin-top:0px;
+    font-style: thin;
+    font-weight:100;
+    color:#fff;
+}
+
+.footer-sutun ul
+{
+    margin:0px;
+    padding:0px;
+    list-style: none;
+}
+
+.footer-sutun ul li
+{
+    font-size:16px;
+    line-height: 22px;
+     font-style: thin;
+    font-weight:100;
+    color:#fff; 
+    margin-bottom:5px;
+}
+
+.footer-sutun ul li a
+{
+    color:#fff;
+    text-decoration: none;
+}
+
+
+.footer-sutun ul li:hover a
+{
+    color:#67D5B5;
+    text-decoration: none;
+}
+
+.footer-sutun ul li .fas
+{
+    margin-right:20px;
+}
+
+.footer-satir
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:10px;
+}
+
+.footer-sutun-resim1
+{
+   
+    width:80px;
+    height:50px;
+    border-radius:50%;
+    background: url('../resimler/a1.jpg') center center no-repeat;
+    background-size: cover;
+    margin-right:10px;
+}
+
+
+.footer-sutun-resim2
+{
+   
+    width:80px;
+    height:50px;
+    border-radius:50%;
+    background: url('../resimler/a2.jpg') center center no-repeat;
+    background-size: cover;
+    margin-right:10px;
+}
+
+.footer-sutun-link a
+{
+    font-size:16px;
+    text-decoration: none;
+    color:#fff;
+}
+
+.footer-sutun-link a:hover
+{
+    color:#67D5B5;
+}
+
+.footer-sutun .fas
+{
+  
+    opacity:.6;
+   
+}
+
+.footer-sutun .sosyal 
+{
+    margin-top:40px;
+}
+
+.footer-sutun .sosyal li
+{
+    float:left;
+    margin-right: 25px;
+}
+
+.sosyal .fab
+{
+    font-size:25px;
+}
+
+
+.copyright
+{
+    font-size:12px;
+    color:#fff;
+    width:50%;
+    height:auto; 
+    padding-top:10px;
+}
+
+.footer-icerik2 .menu
+{
+    width:50%;
+    height:auto;
+}
+
+.footer-icerik2
+{
+    padding:20px;
+    display: flex;
+    
+    width:calc(100%-40px);
+    height:auto;
+}
+
+.copyright a
+{
+    color:#fff;
+    text-decoration: none;
+}
+
+.copyright a:hover
+{
+    color:#67D5B5;
+}
+
+.footer-icerik2 .menu ul
+{
+    margin:0px;
+    padding:0px;
+    list-style: none;
+}
+
+.footer-icerik2 .menu ul li
+{
+    float:left;
+    margin-right:30px;
+    font-size: 16px;
+    font-style: thin;
+}
+
+.footer-icerik2 .menu ul li a
+{
+    text-decoration: none;
+    color:#fff;
+    font-size: 18px;
+}
+
+.footer-icerik2 .menu ul li:hover a
+{
+
+    color:#67D5B5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
